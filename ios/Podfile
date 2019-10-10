@@ -36,6 +36,10 @@ target 'GoLocalCoffee' do
 
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
   target 'GoLocalCoffeeTests' do
     inherit! :search_paths
     # Pods for testing
